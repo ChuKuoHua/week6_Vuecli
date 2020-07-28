@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0df7ec"],{"89c8":function(t,n,e){"use strict";e.r(n);var c=function(){var t=this,n=t.$createElement;t._self._c;return t._m(0)},a=[function(){var t=this,n=t.$createElement,e=t._self._c||n;return e("div",[e("div",{staticClass:"conatiner mt-5"},[e("h2",{staticClass:"mt-5"},[t._v("後台圖片儲存列表")])])])}],s={name:"BackPictures",data:function(){return{}}},r=s,i=e("2877"),u=Object(i["a"])(r,c,a,!1,null,null,null);n["default"]=u.exports}}]);
+//# sourceMappingURL=chunk-2d0df7ec.4066972a.js.map
