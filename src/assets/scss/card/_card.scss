@@ -1,0 +1,85 @@
+// 取消 input number 上下箭頭
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type="number"]{
+    -moz-appearance: textfield;
+}
+// 購物車樣式
+.btn:focus{
+  box-shadow: 0 0 0 ;
+}
+.no-shop{
+  padding: 1em;
+  text-align: center;
+  background-color: #9a959552;
+}
+.cart-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  padding-bottom: 10px;
+  color: #000;
+  h4{
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+}
+.cart-table{
+  width: 100%;
+  th,td{
+    text-align: left;
+  }
+  th{
+    padding: 10px 15px;
+  }
+  td{
+    padding: 20px 15px;
+  }
+}
+.produce-num-td{
+  padding: 10px!important;
+}
+.payment-box{
+  width: 100px;
+  float: right;
+}
+.border-y{
+  border-top: 1px solid #d6c7c770;
+  border-bottom: 1px solid #d6c7c770;
+}
+// 產品數量樣式
+.produce-num-group{
+  position: relative;
+  justify-content: center;
+  width: 100%;
+}
+.numbox{
+  border: 0 !important;
+  box-shadow:  0 1px 3px inset;
+  width: 50px !important;
+}
+.num-btnbox{
+  border: 0px;
+  border-radius: 5%;
+  display: flex;
+  .add-btn,.less-btn{
+    background: $while;
+    border: 1px solid #887f7f80;
+  }
+  .less-btn{
+    padding: 0 8px;
+  }
+}
+// 結帳 btn
+.checkout-btn{
+  background-color: #de6e2d;
+  color: $while;
+  letter-spacing: 2px;
+  &:hover{
+    color: $while;
+    background-color:$org;
+  }
+}
